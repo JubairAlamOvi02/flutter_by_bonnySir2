@@ -34,11 +34,17 @@ void main(List<String> args) {
                   width: 19,
                 ),
                 ElevatedButton(
-                  child: Text('Cancel2'),
+                  child: Text('Cancel4'),
                   onPressed: () {},
                 ),
               ],
             ),
+            Image.network(
+              'https://t3.ftcdn.net/jpg/03/01/67/48/360_F_301674825_ib63RVHvt7e6Rgq5ufFO1TOBt1fYnEJL.jpg',
+              width: double.infinity,
+              height: 300,
+              fit: BoxFit.cover,
+            )
           ],
         ),
       ),
